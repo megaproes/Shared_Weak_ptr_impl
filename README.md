@@ -45,6 +45,14 @@ The output will show the creation and destruction of objects, as well as the usa
 
 Feel free to explore the implementation in the `Shared_Ptr.h` and `Weak_Ptr.h` header files to understand the details of the classes.
 
-Note: This implementation is a simplified version and does not cover all aspects of the standard library `std::shared_ptr` and `std::weak_ptr`. It is intended for educational purposes and to demonstrate the basic principles of shared and weak pointers in C++.
+## Future Enhancements
+This implementation provides a basic understanding of shared and weak pointers. However, it is not a complete replacement for the standard library std::shared_ptr and std::weak_ptr. Here are some potential future enhancements:
+
+1. Thread safety: Consider adding thread safety mechanisms to ensure correct behavior in multi-threaded environments.
+2. Additional functionality: Expand the implementation to include features like custom deleters, support for arrays, and other utility functions.
+3. Testing: Develop a comprehensive test suite to validate the implementation's correctness and edge cases.
+
+## Contribution
+Contributions to the project are welcome! If you have any ideas, bug reports, or feature requests, please feel free to submit them.
 
 Enjoy exploring the smart shared and weak pointers implementation! If you have any questions or feedback, please feel free to reach out.
